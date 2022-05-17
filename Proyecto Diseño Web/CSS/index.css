@@ -1,0 +1,123 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header, #footer-page {
+    background-color: #64a9cb;
+}
+
+.nav-item {
+    padding-left: 50px;
+}
+
+.nav-link {
+    font-size: 100;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.navbar-brand {
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.img-logo {
+    width: 90px;
+    height: 70px;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #0c648f;   
+}
+
+#introduction {
+    background-color: #06405d;
+    padding: 50px;
+    padding-top: 120px;
+}
+
+.introduction-text {
+    padding-top: 10px;
+}
+
+.title-text {
+    color: #777;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.level-feature {
+    color: #999;
+    font-weight: 300;
+    line-height: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.title-feature {
+    font-weight: 600;
+}
+
+.link-feature {
+    color: #03537a;
+}
+
+.link-feature:hover {
+    color: #0d95d8;
+}
+
+.card-feature {
+    background-color: #e7e7e7;
+}
+
+#footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+.social-links .social-icon {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #FFF;
+    margin: 40px 5px 15px;
+    transition: .3s;
+}
+
+.social-links .social-icon:hover {
+    background: #FFF;
+    color: #0c648f;
+    transform: translateY(-7px);
+}
+
+.social-icon {
+    color: #fff;
+}
+
+.p-footer {
+    color: #fff;
+}
